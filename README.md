@@ -54,7 +54,7 @@ El código principal está contenido en el archivo `HMI_signal_processing.py` y 
    - Tienes la opción de visualizar la Transformada de Fourier de la señal original y filtrada mediante un checkbox.
 7. **Descargar**: El audio filtrado y las gráficas generadas se pueden descargar directamente desde la interfaz.
 
-## Ejemplo de ejecución
+## Ejecución
 
 Para ejecutar el proyecto, primero descarga el código del repositorio. Luego, abre el archivo en un IDE como **VS Code**.
 
