@@ -6,7 +6,7 @@
 
 ## Descripción
 
-El proyecto implementa el procesamiento de señales de audio mediante filtros digitales. En esta tarea, se desarrolló una interfaz para la manipulación de señales, permitiendo la aplicación de filtros pasa bajos, pasa altos y pasa banda. Además, se visualiza la señal tanto en el dominio del tiempo como en la frecuencia utilizando la Transformada de Fourier. También se permite guardar el audio filtrado y cada una de las gráficas.
+El proyecto implementa el procesamiento de señales de audio mediante filtros digitales. En esta tarea, se desarrolló una interfaz para la manipulación de señales, permitiendo la aplicación de filtros pasa bajos, pasa altos y pasa banda. Además, se visualiza la señal tanto en el dominio del tiempo como en de la frecuencia utilizando la Transformada de Fourier. También se permite guardar el audio filtrado y cada una de las gráficas.
 
 ## Requisitos
 
@@ -45,13 +45,14 @@ El código principal está contenido en el archivo `HMI_signal_processing.py` y 
 ## Uso
 
 1. **Cargar o grabar un archivo de audio**: Selecciona un archivo de audio para cargar desde tu dispositivo o grabarlo en tiempo real dentro de la interfaz.
-2. **Seleccionar el filtro**: Elige entre los filtros `Lowpass`, `Highpass` o `Bandpass`.
+2. **Seleccionar el filtro**: Elige entre los filtros `Lowpass`, `Highpass` o `Bandpass` utilizando el dropdown.
 3. **Ajustar frecuencias de corte**: Configura las frecuencias de corte según el tipo de filtro seleccionado.
-4. **Procesar**: Haz clic en "Procesar" para aplicar el filtro y generar las gráficas de la señal.
-5. **Visualización**:
+4. **Ajustar el orden del filtro**: Describe el grado de aceptación o rechazo de frecuencias, por arriba o por debajo, de la respectiva frecuencia de corte.
+5. **Procesar**: Haz clic en "Procesar" para aplicar el filtro y generar las gráficas de la señal.
+6. **Visualización**:
    - Se visualizarán las gráficas en el dominio del tiempo de la señal original y filtrada.
    - Tienes la opción de visualizar la Transformada de Fourier de la señal original y filtrada mediante un checkbox.
-6. **Descargar**: El audio filtrado y las gráficas generadas se pueden descargar directamente desde la interfaz.
+7. **Descargar**: El audio filtrado y las gráficas generadas se pueden descargar directamente desde la interfaz.
 
 ## Ejemplo de ejecución
 
