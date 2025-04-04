@@ -4,7 +4,7 @@
 
 ## Descripción
 
-El proyecto implementa el procesamiento de señales de audio mediante filtros digitales. En esta tarea, se desarrolló una interfaz para la manipulación de señales, permitiendo la aplicación de filtros pasa bajos, pasa altos y pasa banda. Además, se visualiza la señal tanto en el dominio del tiempo como en la frecuencia utilizando la Transformada de Fourier. También se permite guardar el audio filtrado.
+El proyecto implementa el procesamiento de señales de audio mediante filtros digitales. En esta tarea, se desarrolló una interfaz para la manipulación de señales, permitiendo la aplicación de filtros pasa bajos, pasa altos y pasa banda. Además, se visualiza la señal tanto en el dominio del tiempo como en la frecuencia utilizando la Transformada de Fourier. También se permite guardar el audio filtrado y cada una de las gráficas.
 
 ## Requisitos
 
@@ -55,6 +55,4 @@ El código principal está contenido en el archivo `hmi_signal_processing.py` y 
 
 Para ejecutar el proyecto, primero descarga el código del repositorio. Luego, abre el archivo en un IDE como **VS Code**.
 
-Cuando ejecutes el código, Gradio generará una URL en la terminal, que podrás abrir en tu navegador para acceder a la interfaz de usuario. Desde allí, podrás cargar un archivo de audio, aplicar los filtros, visualizar las transformadas de Fourier y descargar el audio filtrado y las gráficas.
-
-Este proceso no requiere escribir comandos en la terminal una vez que el proyecto está configurado. Simplemente abre el código en tu IDE y corre el script, y la interfaz web se abrirá automáticamente.
+Cuando ejecutes el código, Gradio generará una URL en la terminal, que podrás abrir en tu navegador para acceder a la interfaz de usuario. Desde allí, podrás cargar un archivo de audio, aplicar los filtros, visualizar las transformadas de Fourier y descargar el audio filtrado y las gráficas. Este proceso no requiere escribir comandos en la terminal una vez que el proyecto está configurado.
