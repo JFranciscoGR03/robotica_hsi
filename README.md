@@ -42,7 +42,7 @@ El código principal está contenido en el archivo `hmi_signal_processing.py` y 
 
 ## Uso
 
-1. **Cargar un archivo de audio**: Selecciona un archivo de audio para cargar en la interfaz.
+1. **Cargar o grabar un archivo de audio**: Selecciona un archivo de audio para cargar desde tu dispositivo o grabarlo en tiempo real dentro de la interfaz.
 2. **Seleccionar el filtro**: Elige entre los filtros `Lowpass`, `Highpass` o `Bandpass`.
 3. **Ajustar frecuencias de corte**: Configura las frecuencias de corte según el tipo de filtro seleccionado.
 4. **Procesar**: Haz clic en "Procesar" para aplicar el filtro y generar las gráficas de la señal.
