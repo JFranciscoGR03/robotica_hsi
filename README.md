@@ -26,7 +26,7 @@ Estas son las bibliotecas necesarias para ejecutar el proyecto:
 
 ## Estructura del código
 
-El código principal está contenido en el archivo `hmi_signal_processing.py` y se organiza en las siguientes funciones:
+El código principal está contenido en el archivo `HMI_signal_processing.py` y se organiza en las siguientes funciones:
 
 - **`load_audio(file)`**: Carga un archivo de audio y lo convierte a un array numpy mono.
 
