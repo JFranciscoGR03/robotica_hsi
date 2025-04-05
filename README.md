@@ -2,15 +2,27 @@
 
 # Interfaces de Hardware y Software
 
-## Trabajo 1: HMI for Signal Processing
+## 📌 Trabajo 1: HMI for Signal Processing
 
-## Descripción
+## 📄 Descripción
 
 El proyecto implementa el procesamiento de señales de audio mediante filtros digitales. En esta tarea, se desarrolló una interfaz para la manipulación de señales, permitiendo la aplicación de filtros pasa bajos, pasa altos y pasa banda. Además, se visualiza la señal tanto en el dominio del tiempo como en de la frecuencia utilizando la Transformada de Fourier. También se permite guardar el audio filtrado y cada una de las gráficas.
 
-## Requisitos
+## ⚙️ Requisitos
 
-Para ejecutar el proyecto, necesitas tener Python 3.10 instalado. Luego, instala las siguientes dependencias ejecutando el siguiente comando:
+Para ejecutar el proyecto, necesitas tener Python 3.10 instalado. Luego, sigue estos pasos para crear y activar un entorno virtual:
+```bash
+# 1. Crear el entorno virtual
+python -m venv venv
+
+# 2. Activar el entorno virtual (en Windows)
+venv\Scripts\activate
+
+# 2. Activar el entorno virtual (en macOS/Linux)
+source venv/bin/activate
+```
+
+Una vez activado el entorno virtual, instala las dependencias necesarias ejecutando:
 ```bash
 pip install gradio librosa matplotlib numpy scipy soundfile
 ```
@@ -24,7 +36,7 @@ Estas son las bibliotecas necesarias para ejecutar el proyecto:
 - **scipy**: Para la aplicación de filtros digitales.
 - **soundfile**: Para guardar los archivos de audio filtrados.
 
-## Estructura del código
+## 🧠 Estructura del código
 
 El código principal está contenido en el archivo `HMI_signal_processing.py` y se organiza en las siguientes funciones:
 
@@ -42,7 +54,7 @@ El código principal está contenido en el archivo `HMI_signal_processing.py` y 
 
 - **`create_interface()`**: Crea la interfaz gráfica con Gradio.
 
-## Uso
+## 🧪 Uso
 
 1. **Cargar o grabar un archivo de audio**: Selecciona un archivo de audio para cargar desde tu dispositivo o grabarlo en tiempo real dentro de la interfaz.
 2. **Seleccionar el filtro**: Elige entre los filtros `Lowpass`, `Highpass` o `Bandpass` utilizando el dropdown.
@@ -54,10 +66,18 @@ El código principal está contenido en el archivo `HMI_signal_processing.py` y 
    - Tienes la opción de visualizar la Transformada de Fourier de la señal original y filtrada mediante un checkbox.
 7. **Descargar**: El audio filtrado y las gráficas generadas se pueden descargar directamente desde la interfaz.
 
-## Ejecución
+## 🚀 Ejecución
 
-Para ejecutar el proyecto, primero descarga el código del repositorio. Luego, abre el archivo en un IDE como **VS Code**.
+Para ejecutar el proyecto:
 
-Cuando ejecutes el código, Gradio generará una URL en la terminal, que podrás abrir en tu navegador para acceder a la interfaz de usuario. Desde allí, podrás cargar un archivo de audio, aplicar los filtros, visualizar las transformadas de Fourier y descargar el audio filtrado y las gráficas. Este proceso no requiere escribir comandos en la terminal una vez que el proyecto está configurado.
+1. Descarga el código del repositorio.
+2. Abre el archivo `HMI_signal_processing.py` en un IDE como **Visual Studio Code**.
+3. Ejecuta el archivo. Al correrlo, **Gradio generará una URL en la terminal**.
+4. Abre esa URL en tu navegador para acceder a la interfaz de usuario.
+5. Desde allí podrás:
+   - Cargar o grabar un archivo de audio.
+   - Aplicar el filtro deseado seleccionando la frecuencia de corte y el orden del filtro.
+   - Visualizar las gráficas en el dominio del tiempo y la frecuencia.
+   - Descargar el audio filtrado y las gráficas.
 
 </div>
