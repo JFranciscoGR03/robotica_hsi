@@ -80,7 +80,6 @@ Para ejecutar el proyecto:
    - Visualizar las gráficas en el dominio del tiempo y la frecuencia.
    - Descargar el audio filtrado y las gráficas.
 
-
 ## 💻 Interfaz gráfica
 
 ![Screenshot interfaz_grafica](https://github.com/user-attachments/assets/7e7c8f09-9140-4ff6-95a9-192009ce5cff)
