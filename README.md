@@ -83,4 +83,13 @@ Para ejecutar el proyecto:
 
 ## 💻 Interfaz gráfica
 
+![Screenshot interfaz_grafica](https://github.com/user-attachments/assets/7e7c8f09-9140-4ff6-95a9-192009ce5cff)
+![Screenshot graficas](https://github.com/user-attachments/assets/f2474795-072d-4436-bb68-d030bbf5ddbc)
+
+## 👨‍💻 Autor
+
+Juan Francisco García Rodríguez.
+
+Integración de robótica y sistemas inteligentes (Gpo 581).
+
 </div>
