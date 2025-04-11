@@ -80,4 +80,7 @@ Para ejecutar el proyecto:
    - Visualizar las gráficas en el dominio del tiempo y la frecuencia.
    - Descargar el audio filtrado y las gráficas.
 
+
+## 💻 Interfaz gráfica
+
 </div>
