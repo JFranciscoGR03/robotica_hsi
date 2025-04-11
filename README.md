@@ -87,7 +87,8 @@ Para ejecutar el proyecto:
 
 ## 👨‍💻 Autor
 
-Juan Francisco García Rodríguez
-Integración de robótica y sistemas inteligentes (Gpo 581)
+Juan Francisco García Rodríguez.
+
+Integración de robótica y sistemas inteligentes (Gpo 581).
 
 </div>
