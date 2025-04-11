@@ -82,5 +82,6 @@ Para ejecutar el proyecto:
 
 
 ## 💻 Interfaz gráfica
+![Screenshot from 2025-04-10 19-12-22](https://github.com/user-attachments/assets/98a79484-a6a4-427b-83c5-294eb5964566)
 
 </div>
